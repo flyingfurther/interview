@@ -31,4 +31,6 @@ def nearestValue(array, value, index):
 
 
 if __name__ == "__main__":
-    print(BinarySearch([1, 2, 3, 34, 56, 57, 78, 87], 77))
+    print(BinarySearch([1, 2, 3, 34, 56, 57, 78, 87], 57))
+    print(BinarySearch([1, 2, 3, 34, 56, 57, 78, 87], 60))
+    print(BinarySearch([1, 2, 3, 34, 56, 57, 78, 87], 76))
